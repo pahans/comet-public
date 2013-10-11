@@ -84,13 +84,12 @@
                         <!-- THE THIRD SLIDE -->
                         <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="assets/img/sliders/revolution/thumbs/thumb2.jpg">
                             <img src="assets/img/sliders/revolution/bg3.jpg" alt="">
-                            <div class="caption lfl slide_item_left" 
+                            <div class="caption lfl slide_item_left" id="product-video" 
                                  data-x="20" 
                                  data-y="95" 
                                  data-speed="400" 
                                  data-start="0" 
                                  data-easing="easeOutBack">
-                                 <iframe src="https://fast.wistia.net/embed/iframe/eqrdhtfm1a" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen  width="420" height="263" style="border:0"></iframe>
                             </div>
                             <h1 class="caption lfr slide_title"
                                  data-x="470"
@@ -373,7 +372,8 @@
         jQuery(document).ready(function() {
             App.init();    
             App.initBxSlider();
-            Index.initRevolutionSlider();                    
+            Index.initRevolutionSlider();   
+            $("#product-video").html('<iframe src="https://fast.wistia.net/embed/iframe/eqrdhtfm1a" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen  width="420" height="263" style="border:0"></iframe>')                 
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
