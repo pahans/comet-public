@@ -1,0 +1,40 @@
+/* here you can put your own css to customize and override the theme */
+#logoimg{
+  height: 40px;
+  margin-top: 5px;
+}
+.centered{
+    float: none;
+    margin: 0 auto;
+}
+.sign-up{
+  padding: 35px 0;
+  position: relative;
+}
+.sign-up .input-group{
+  margin: 0 auto;
+}
+.sign-up .form-control {
+  width: 275px;
+}
+.footer{
+  margin-top: 35px;
+}
+.slide_title{
+  /*font-size: 35px;*/
+}
+.slide_desc{
+font-size: 20px;
+line-height: 30px;
+}
+.footer .row{
+  text-align: center;
+}
+.meteorhacks{
+  margin: 0 auto;
+  width: 100%;
+}
+.footer{
+  background-color: #212121;
+  padding: 10px 0 30px 0;
+}
