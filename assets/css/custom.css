@@ -15,8 +15,16 @@
   margin: 0 auto;
 }
 .sign-up .form-control {
+  width: 140px;
+}
+
+@media(min-width:768px){
+  .sign-up .form-control {
   width: 275px;
 }
+}
+
+
 .footer{
   margin-top: 35px;
 }
