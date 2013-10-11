@@ -21,7 +21,7 @@
   margin-top: 35px;
 }
 .slide_title{
-  /*font-size: 35px;*/
+  font-size: 40px;
 }
 .slide_desc{
 font-size: 20px;
@@ -37,4 +37,11 @@ line-height: 30px;
 .footer{
   background-color: #212121;
   padding: 10px 0 30px 0;
+}
+.visible-xs>.slide_title, .visible-xs>.slide_subtitle,.visible-xs>.slide_desc{
+  text-align:center;
+}
+.visible-xs>.product-video{
+  width: 100%;
+  margin: 0 auto;
 }
